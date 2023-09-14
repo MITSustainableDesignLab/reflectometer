@@ -17,18 +17,9 @@
 if grep -q Microsoft /proc/version; then
 	# Set aliases to Windows programs
 	shopt -s expand_aliases
-	alias hdrgen='/mnt/c/Program_Foils/hdrgen/bin/hdrgen' # This should be the path to hdrgen on your computer or cluster
-	alias pcomb=pcomb.exe
 	alias pcompos=pcompos.exe
-	alias pfilt=pfilt.exe
 	alias falsecolor=falsecolor.exe
-	alias wxfalsecolor=wxfalsecolor_v0.52.exe # Make sure to download http://tbleicher.github.io/wxfalsecolor/ if using this program
 	alias ra_tiff=ra_tiff.exe
-	alias ra_bmp=ra_bmp.exe
-	alias getinfo=getinfo.exe
-	alias pvalue=pvalue.exe
-	alias total=total.exe
-	alias rcalc=rcalc.exe
 	alias oconv=oconv.exe
 	alias rpict=rpict.exe
 fi
