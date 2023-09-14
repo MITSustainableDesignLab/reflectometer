@@ -38,7 +38,7 @@ Place the HDR images of all samples to be measured into a directory. In a Python
 | hdr_directory | string | Path to the directory of input HDR images. |
 | result_directory | string, optional | Path to the directory where output should be saved, or None if output should not be saved. If the directory does not exist, it will be created. The default is None. |
 | ref_u_path | string, optional | Path to the horizontal reference image, or None if calculations should not be performed. The default is None. |
-| ref_v_path | string, optional | Path to the vertical reference image, or None if the material is anisotropic. This input is required for the Ashikhmin-Shirley model. The default is None. |
+| ref_v_path | string, optional | Path to the vertical reference image, or None if the material is isotropic. This input is required for the Ashikhmin-Shirley model. The default is None. |
 | diffuser_radiance | array-like of numbers, optional | Red, Green, and Blue color channel multipliers, which are the observed radiance of the diffuser in each color channel. The default is [0.118384, 0.109451, 0.121427]. |
 | sample_count | integer, optional | If a non-zero value is given, the run will stop after that number of images have been processed. The default is 0. |
 | save_figures | boolean, optional | Flag to save images generated during the run to the result_directory, if one is given. The default is False. |

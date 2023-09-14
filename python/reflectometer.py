@@ -1350,7 +1350,7 @@ def run(hdr_directory, result_directory=None, ref_u_path=None, ref_v_path=None, 
         not be performed. The default is None.
     ref_v_path : string, optional
         Path to the vertical reference image, or None if the material is
-        anisotropic. This input is required for the Ashikhmin-Shirley model.
+        isotropic. This input is required for the Ashikhmin-Shirley model.
         The default is None.
     diffuser_radiance : array-like of numbers, optional
         Red, Green, and Blue color channel multipliers, which are the observed
