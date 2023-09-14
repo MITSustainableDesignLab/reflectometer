@@ -1,5 +1,5 @@
 # reflectometer
-This repository contains 3D printable components and software for in-situ measurement of Radiance material reflectance properties. Details are described in Nathaniel L. Jones, Arusha Nirvan, and Christoph Reinhart (2023), *Low-Cost Photographic Measurement of Colour, Specular Reflectance, and Roughness*.
+This repository contains 3D printable components and software for in-situ measurement of Radiance material reflectance properties. Details are described in Nathaniel L. Jones, Arusha Nirvan, and Christoph Reinhart (2023), [*Low-Cost Photographic Measurement of Colour, Specular Reflectance, and Roughness*](https://www.researchgate.net/publication/373899208_Low-Cost_Photographic_Measurement_of_Colour_Specular_Reflectance_and_Roughness).
 
 ## Building the Enclosure
 To build the enclosure, manufacture the STL files included in the `stl` directory using a 3D printer. Print `light_enclosure.stl` with white material and the others with black material. The `camera_attachement.stl` piece is sized for a Canon RF 14-35mm f/4 IS USM lens and may be altered to fit other lenses.
